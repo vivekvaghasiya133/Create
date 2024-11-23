@@ -26,7 +26,7 @@ const server = http.createServer(app);
 databaseConnection(process.env.DB_URI);
 loadSeeders();
 
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 
 app.use(logger('dev'));
 
