@@ -7,7 +7,7 @@ import orderRoutes from './order.routes';
 const router = express.Router();
 
 router.use('/auth', authRoutes);
-router.use(deliveryManAuth);
+router.use('datasample',deliveryManAuth);
 router.use('/orders', orderRoutes);
 router.use('/location', locationRoutes);
 
